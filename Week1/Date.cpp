@@ -5,7 +5,7 @@
 #include "Date.h"
 
 void Date::setDate(int d) {
-    while (d < 0 || d > 31) {
+    while (d < 1 || d > 31) {
         cout << "Give a valid date";
         cin >> d;
     }
@@ -13,7 +13,7 @@ void Date::setDate(int d) {
 }
 
 void Date::setMonth(int m) {
-    while (m < 0 || m > 12) {
+    while (m < 1 || m > 12) {
         cout << "Give a valid month";
         cin >> m;
     }
