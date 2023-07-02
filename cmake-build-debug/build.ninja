@@ -61,8 +61,14 @@ build CMakeFiles/ComputerScience2.dir/Week1/Date.cpp.o: CXX_COMPILER__ComputerSc
   OBJECT_DIR = CMakeFiles/ComputerScience2.dir
   OBJECT_FILE_DIR = CMakeFiles/ComputerScience2.dir/Week1
 
-build CMakeFiles/ComputerScience2.dir/Week2/lab2.cpp.o: CXX_COMPILER__ComputerScience2_Debug /Users/arav/CLionProjects/ComputerScience2/Week2/lab2.cpp || cmake_object_order_depends_target_ComputerScience2
-  DEP_FILE = CMakeFiles/ComputerScience2.dir/Week2/lab2.cpp.o.d
+build CMakeFiles/ComputerScience2.dir/Week2/Week2Lab1.cpp.o: CXX_COMPILER__ComputerScience2_Debug /Users/arav/CLionProjects/ComputerScience2/Week2/Week2Lab1.cpp || cmake_object_order_depends_target_ComputerScience2
+  DEP_FILE = CMakeFiles/ComputerScience2.dir/Week2/Week2Lab1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ComputerScience2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ComputerScience2.dir/Week2
+
+build CMakeFiles/ComputerScience2.dir/Week2/Week2Lab2.cpp.o: CXX_COMPILER__ComputerScience2_Debug /Users/arav/CLionProjects/ComputerScience2/Week2/Week2Lab2.cpp || cmake_object_order_depends_target_ComputerScience2
+  DEP_FILE = CMakeFiles/ComputerScience2.dir/Week2/Week2Lab2.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
   OBJECT_DIR = CMakeFiles/ComputerScience2.dir
   OBJECT_FILE_DIR = CMakeFiles/ComputerScience2.dir/Week2
@@ -75,7 +81,7 @@ build CMakeFiles/ComputerScience2.dir/Week2/lab2.cpp.o: CXX_COMPILER__ComputerSc
 #############################################
 # Link the executable ComputerScience2
 
-build ComputerScience2: CXX_EXECUTABLE_LINKER__ComputerScience2_Debug CMakeFiles/ComputerScience2.dir/Week1/lab1.cpp.o CMakeFiles/ComputerScience2.dir/Week1/Date.cpp.o CMakeFiles/ComputerScience2.dir/Week2/lab2.cpp.o
+build ComputerScience2: CXX_EXECUTABLE_LINKER__ComputerScience2_Debug CMakeFiles/ComputerScience2.dir/Week1/lab1.cpp.o CMakeFiles/ComputerScience2.dir/Week1/Date.cpp.o CMakeFiles/ComputerScience2.dir/Week2/Week2Lab1.cpp.o CMakeFiles/ComputerScience2.dir/Week2/Week2Lab2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/ComputerScience2.dir
   POST_BUILD = :
