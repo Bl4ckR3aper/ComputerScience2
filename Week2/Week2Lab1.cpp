@@ -3,7 +3,9 @@ Name: Arav Tuteja
 Class: COMS-076
 Date: 06/28/23
 Instructor: Manny Kang
-Purpose:
+Purpose: The purpose of this program is to demonstrate the usage of the min and max functions with different data types.
+         It compares and prints the minimum and maximum values for integers, floats, and strings.
+         The min and max functions are implemented as templates to handle different data types dynamically.
 */
 
 #include <iostream>

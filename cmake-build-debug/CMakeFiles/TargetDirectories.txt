@@ -1,3 +1,0 @@
-/Users/arav/CLionProjects/ComputerScience2/cmake-build-debug/CMakeFiles/ComputerScience2.dir
-/Users/arav/CLionProjects/ComputerScience2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/arav/CLionProjects/ComputerScience2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

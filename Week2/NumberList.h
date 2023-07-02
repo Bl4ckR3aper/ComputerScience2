@@ -1,29 +1,35 @@
 #ifndef NUMBERLIST_H
 #define NUMBERLIST_H
 
+
 class NumberList {
 private:
-    struct ListNode {
-        double value;           // The value in this node
-        ListNode* next;         // To point to the next node
+    struct Node {
+        int data;
+        Node* next;
     };
 
-    ListNode* head;             // List head pointer
+    Node* head = nullptr;
 
 public:
-    NumberList() {              // Constructor
-        head = nullptr;
-    }
+    // Purpose: Add a new node with the given data to the front of the linked list
+    // Arguments: int data - The data to be stored in the new node
+    void addNode(int data);
 
-    ~NumberList() {             // Destructor
-        // Code for destructor goes here
-    }
+    // Purpose: Print the elements of the linked list
+    void printList();
 
-    void appendNode(double);    // Linked list operations
-    void insertNode(double);
-    void deleteNode(double);
-    void displayList() const;
-    void mergeArray(double[], int);
+    // Purpose: Merge an array of doubles into the linked list, inserting the values in numerical order
+    // Arguments: double arr[] - The array of doubles to be merged
+    //            int size - The size of the array
+    void mergeArray(double arr[], int size);
+
+    // Purpose: Display the elements of the linked list
+    void displayList();
+
+    // Purpose: Constructor for the NumberList class, initializes the head pointer to nullptr
+    NumberList();
+
 };
 
 #endif

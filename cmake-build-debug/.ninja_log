@@ -1,9 +1,0 @@
-# ninja log v5
-4	421	1688018505828799225	CMakeFiles/ComputerScience2.dir/Week_2/lab2.cpp.o	273e58ded317f2ab
-4	425	1688018505833857460	CMakeFiles/ComputerScience2.dir/Week1/Date.cpp.o	6c42ebd0b6e36936
-3	421	1688018505829120057	CMakeFiles/ComputerScience2.dir/Week1/lab1.cpp.o	5e28a1bd1a941fe5
-2	270	1688018770890752111	CMakeFiles/ComputerScience2.dir/Week2/lab2.cpp.o	b15ba4d66bb44f41
-0	49	1688280355568430400	build.ninja	29d6fd5f7b2e7611
-368	409	1687326124594128632	ComputerScience2	a43799da57d80338
-3	315	1688280433793070851	CMakeFiles/ComputerScience2.dir/Week2/Week2Lab2.cpp.o	a75ae6f9d1a5f72a
-3	329	1688280433807130085	CMakeFiles/ComputerScience2.dir/Week2/Week2Lab1.cpp.o	fc394adab14bcaf0
